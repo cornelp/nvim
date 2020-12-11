@@ -1,4 +1,4 @@
 function! OpenTerminal()
     split term://zsh
-    resize 30
+    resize 40
 endfunction
