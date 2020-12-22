@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/cornel/ParcAuto/config/eloquent'
+let g:netrw_dirhist_9='/home/cornel'
+let g:netrw_dirhist_8='/home/cornel/Documents'
+let g:netrw_dirhist_7='/home/cornel/Downloads'
 let g:netrw_dirhist_6='/home/cornel/Documents/system/nvim/snips'
 let g:netrw_dirhist_5='/home/cornel/Documents/system/nvim/plugins'
 let g:netrw_dirhist_4='/home/cornel/.scripts'
 let g:netrw_dirhist_3='/home/cornel'
 let g:netrw_dirhist_2='/home/cornel/.config'
 let g:netrw_dirhist_1='/home/cornel/Code/avm-toddy/app/Http/Controllers'
-let g:netrw_dirhist_0='/home/cornel/Code/avm-toddy/app/Http/Controllers/Test'
-let g:netrw_dirhist_9='/home/cornel/Code/avm-toddy/app/Http/Controllers'
-let g:netrw_dirhist_8='/home/cornel/Documents/system/nvim'
-let g:netrw_dirhist_7='/home/cornel/Code'

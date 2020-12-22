@@ -17,6 +17,7 @@ Plug 'tpope/vim-surround'
 Plug 'haya14busa/incsearch.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdcommenter'
 
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'ayu-theme/ayu-vim'
