@@ -9,7 +9,6 @@ Plug 'honza/vim-snippets'
 Plug 'vim-test/vim-test'
 Plug 'prettier/vim-prettier'
 Plug 'tpope/vim-fugitive'
-Plug 'mhinz/vim-startify'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
