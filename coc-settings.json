@@ -1,0 +1,16 @@
+{
+  "explorer.width": 30,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "php",
+    "json",
+    "vue",
+    "javascript",
+    "html"
+  ],
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "html.format.enable": true,
+  "json.format.enable": true,
+  "coc.preferences.snippetStatusText": "Ⓢ ",
+  "suggest.noselect": true,
+  "prettier.tabWidth": 4
+}

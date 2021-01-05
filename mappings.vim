@@ -39,7 +39,7 @@ nnoremap <silent> <C-s> :w<CR>
 nnoremap <silent> <C-q> :q!<CR>
 nnoremap <leader>q :q!<CR>
 " Remove buffer
-nnoremap <leader>d :bdelete!<cr>
+nnoremap <leader>d :bd<cr>
 " Use control-c instead of escape
 nnoremap <silent> <C-c> <Esc>
 " <TAB>: completion.
