@@ -12,7 +12,7 @@ set smarttab
 set expandtab
 set smartindent
 set autoindent
-set laststatus=0
+set laststatus=2
 set cursorline
 set showtabline=2
 set noshowmode

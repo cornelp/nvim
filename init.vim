@@ -10,5 +10,5 @@ source ~/.config/nvim/plugins/coc-snippets.vim
 source ~/.config/nvim/plugins/nerd-commenter.vim
 
 source ~/.config/nvim/themes/general.vim
-source ~/.config/nvim/themes/airline.vim
+source ~/.config/nvim/themes/lightline.vim
 

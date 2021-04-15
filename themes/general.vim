@@ -1,4 +1,3 @@
 set termguicolors
-let ayucolor="mirage"
-set background=dark
-colorscheme ayu
+let g:material_theme_style = 'default-community'
+colorscheme atom

@@ -90,3 +90,5 @@ inoremap <expr> <c-k> ("\<C-p>")
 nnoremap <C-o> :call OpenTerminal()<CR>
 
 nnoremap <C-n> :nohl<CR>
+
+nmap <leader>ac  <Plug>(coc-codeaction)
