@@ -18,6 +18,12 @@ inoremap <expr> <c-k> ("\<C-p>")
 inoremap jk <Esc>
 inoremap kj <Esc>
 
+" Tags explorer
+nnoremap <leader>t :TagbarOpenAutoClose<CR>
+
+" Easy Motion
+map <Leader> <Plug>(easymotion-prefix)
+
 " Easy CAPS
 " inoremap <c-u> <ESC>viwUi
 " nnoremap <c-u> viwU<Esc>

@@ -16,6 +16,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jwalton512/vim-blade'
 Plug 'evidens/vim-twig'
+Plug 'majutsushi/tagbar'
+Plug 'easymotion/vim-easymotion'
 
 " Themes
 Plug 'itchyny/lightline.vim'
