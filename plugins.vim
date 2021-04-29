@@ -4,7 +4,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
 Plug 'vim-test/vim-test'
-Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-rooter'
 Plug 'tpope/vim-surround'
 Plug 'haya14busa/incsearch.vim'
