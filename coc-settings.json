@@ -13,5 +13,6 @@
     "json.format.enable": true,
     "coc.preferences.snippetStatusText": "Ⓢ ",
     "suggest.noselect": true,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "vetur.ignoreProjectWarning": true
 }

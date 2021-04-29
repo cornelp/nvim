@@ -24,6 +24,10 @@ nnoremap <leader>t :TagbarOpenAutoClose<CR>
 " Easy Motion
 map <Leader> <Plug>(easymotion-prefix)
 
+" Diagnostics
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
 " Easy CAPS
 " inoremap <c-u> <ESC>viwUi
 " nnoremap <c-u> viwU<Esc>
