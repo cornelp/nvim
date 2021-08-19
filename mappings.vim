@@ -48,8 +48,9 @@ nnoremap <silent> <C-s> :w<CR>
 " Alternate way to quit
 nnoremap <silent> <C-q> :q!<CR>
 nnoremap <leader>q :q!<CR>
-" Remove buffer
-nnoremap <leader>d :bd<cr>
+" Close buffer and reopen split
+" nnoremap <leader>d :b#<CR> \| :bd#<CR>
+nnoremap <leader>d :bd<CR>
 " Use control-c instead of escape
 nnoremap <silent> <C-c> <Esc>
 " <TAB>: completion.
@@ -73,15 +74,15 @@ inoremap <C-l> <C-\><C-N><C-w>l
 tnoremap <Esc> <C-\><C-n>
 
 " Use alt + hjkl to resize windows
-" nnoremap <silent> <M-j>    :resize -2<CR>
-" nnoremap <silent> <M-k>    :resize +2<CR>
-" nnoremap <silent> <M-h>    :vertical resize -2<CR>
-" nnoremap <silent> <M-l>    :vertical resize +2<CR>
+nnoremap <silent> <M-j>    :resize -2<CR>
+nnoremap <silent> <M-k>    :resize +2<CR>
+nnoremap <silent> <M-h>    :vertical resize -2<CR>
+nnoremap <silent> <M-l>    :vertical resize +2<CR>
 
-nnoremap <silent> <C-Up>    :resize -2<CR>
-nnoremap <silent> <C-Down>  :resize +2<CR>
-nnoremap <silent> <C-Left>  :vertical resize -2<CR>
-nnoremap <silent> <C-Right> :vertical resize +2<CR>
+" nnoremap <silent> <C-Up>    :resize -2<CR>
+" nnoremap <silent> <C-Down>  :resize +2<CR>
+" nnoremap <silent> <C-Left>  :vertical resize -2<CR>
+" nnoremap <silent> <C-Right> :vertical resize +2<CR>
 
 let g:elite_mode=0                      " Disable arrows"
 " Disable arrow movement, resize splits instead.
@@ -99,6 +100,7 @@ inoremap <expr> <c-k> ("\<C-p>")
 " Terminal
 nnoremap <C-o> :call OpenTerminal()<CR>
 
+" No highlight
 nnoremap <C-n> :nohl<CR>
 
 nmap <leader>ac  <Plug>(coc-codeaction)
